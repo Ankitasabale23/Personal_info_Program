@@ -1,0 +1,17 @@
+print("PERSONAL INFORMATION")
+
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+city = input("Enter your city: ")
+course = input("Enter your course: ")
+college = input("Enter your college: ")
+
+print("\n-----------------------------")
+print("       MY PROFILE")
+print("-----------------------------")
+print(f"Name    : {name}")
+print(f"Age     : {age}")
+print(f"City    : {city}")
+print(f"Course  : {course}")
+print(f"College : {college}")
+print("-----------------------------")
